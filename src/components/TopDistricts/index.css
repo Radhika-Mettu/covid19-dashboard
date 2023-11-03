@@ -1,0 +1,10 @@
+.state-list-item {
+  list-style: none;
+  display: flex;
+  color: #94a3b8;
+}
+.state-each-district {
+  width: 70px;
+  margin-left: 150px;
+  margin-right: 20px;
+}

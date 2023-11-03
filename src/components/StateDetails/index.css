@@ -1,0 +1,494 @@
+.state-details-container {
+  height: 4000px;
+  width: 1500px;
+  background-color: #161625;
+  background-size: cover;
+}
+.state-name-heading {
+  width: 312px;
+  height: 64px;
+  top: 144px;
+  left: 150px;
+  padding: 10.54px, 21.08px, 10.54px, 21.08px;
+  border-radius: 32px;
+  background-color: #0284c729;
+  position: absolute;
+}
+.name-heading {
+  width: 273px;
+  height: 40px;
+  padding: 0px, 21px, 0px, 21px;
+  left: 30px;
+  color: #0ea5e9;
+  font-family: HK Grotesk;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0px, 21px, 0px, 21px;
+  position: absolute;
+}
+.last-update-para {
+  width: 265px;
+  height: 24px;
+  top: 220px;
+  left: 150px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cbd5e1;
+  position: absolute;
+}
+.tested-para {
+  width: 53px;
+  height: 24px;
+  top: 144px;
+  left: 1237px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  color: #94a3b8;
+}
+.total-tested-para {
+  width: 110px;
+  height: 24px;
+  top: 172px;
+  left: 1180px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #94a3b8;
+  position: absolute;
+}
+.state-details-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 1055px;
+  height: 232px;
+  top: 308px;
+  left: 150px;
+  border-radius: 12px;
+}
+
+.state-top-districts {
+  width: 181px;
+  height: 48px;
+  top: 1104px;
+  left: 150px;
+  position: absolute;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff073a;
+}
+.state-top-districts-para {
+  color: white;
+}
+.state-unordered-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 236px;
+  top: 1184px;
+  position: absolute;
+}
+.state-bar-chart {
+  width: 1032px;
+  height: 431px;
+  border-radius: 8px, 8px, 0px, 0px;
+  color: #9a0e31;
+  top: 1416px;
+  left: 204px;
+  position: absolute;
+}
+.bar1 {
+  border-bottom-left-radius: 8px;
+  color: #9a0e31;
+}
+.state-spread-trends {
+  width: 285px;
+  height: 48px;
+  top: 1843px;
+  left: 150px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cbd5e1;
+  position: absolute;
+}
+.state-line-confirmed-chart {
+  width: 1146px;
+  height: 345px;
+  top: 1939px;
+  left: 150px;
+  border-radius: 12px;
+  background-color: #331427;
+  position: absolute;
+}
+.state-line-active-chart {
+  width: 1146px;
+  height: 345px;
+  top: 2299px;
+  left: 150px;
+  border-radius: 12px;
+  background-color: #132240;
+  position: absolute;
+}
+
+.state-line-recovered-chart {
+  width: 1146px;
+  height: 345px;
+  top: 2659px;
+  left: 150px;
+  border-radius: 12px;
+  background-color: #182829;
+  position: absolute;
+}
+.state-line-deceased-chart {
+  width: 1146px;
+  height: 345px;
+  top: 3019px;
+  left: 150px;
+  border-radius: 12px;
+  background-color: #1c1c2b;
+  position: absolute;
+}
+.state-line-tested-chart {
+  width: 1146px;
+  height: 345px;
+  top: 3379px;
+  left: 150px;
+  border-radius: 12px;
+  background-color: #230f41;
+  position: absolute;
+}
+.state-line-confirmed-para {
+  color: #ff073a;
+  text-align: right;
+}
+.state-line-active-para {
+  color: #007bff;
+  text-align: right;
+}
+.state-line-recovered-para {
+  color: #27a243;
+  text-align: right;
+}
+.state-line-deceased-para {
+  color: #6c757d;
+  text-align: right;
+}
+.state-line-tested-para {
+  color: #9673b9;
+  text-align: right;
+}
+.state-details-loader {
+  text-align: center;
+  top: 300px;
+  left: 500px;
+  position: absolute;
+}
+.state-details-active-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  width: 264px;
+  height: 232px;
+  top: 308px;
+  left: 444px;
+  border-radius: 12px;
+  position: absolute;
+}
+.state-details-active-card-bg {
+  background-color: #132240;
+}
+.state-details-recovered-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  width: 264px;
+  height: 232px;
+  top: 308px;
+  left: 738px;
+  position: absolute;
+  border-radius: 12px;
+}
+.state-details-recovered-card-bg {
+  background-color: #182829;
+}
+.state-details-deceased-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  width: 264px;
+  height: 232px;
+  top: 308px;
+  left: 1032px;
+  position: absolute;
+  border-radius: 12px;
+}
+.state-details-deceased-card-bg {
+  background-color: #212230;
+}
+.state-details-confirmed-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  width: 264px;
+  height: 232px;
+  top: 308px;
+  left: 150px;
+  position: absolute;
+  border-radius: 12px;
+}
+.state-details-confirmed-card-bg {
+  background-color: #331427;
+}
+.state-details-active-text {
+  width: 45px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+
+  color: #007bff;
+}
+.state-details-active-image {
+  width: 38px;
+  height: 38px;
+}
+.states-total-Active-para {
+  width: 82px;
+  height: 24px;
+  top: 474px;
+  left: 533px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #007bff;
+}
+.state-details-confirmed-text {
+  width: 45px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff073a;
+}
+
+.state-details-check-image {
+  width: 38px;
+  height: 38px;
+}
+.states-total-Confirmed-para {
+  width: 82px;
+  height: 24px;
+  top: 474px;
+  left: 533px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ff073a;
+}
+.state-details-recovered-text {
+  width: 45px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #28a745;
+}
+.state-details-recovered-image {
+  width: 38px;
+  height: 38px;
+}
+.states-total-recovered-para {
+  width: 82px;
+  height: 24px;
+  top: 474px;
+  left: 533px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #28a745;
+}
+.state-details-deceased-text {
+  width: 45px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6c757d;
+}
+.state-details-deceased-image {
+  width: 38px;
+  height: 38px;
+}
+.states-total-deceased-para {
+  width: 82px;
+  height: 24px;
+  top: 474px;
+  left: 533px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #6c757d;
+}
+@media screen and (max-width: 564px) {
+  .state-details-confirmed-card {
+    top: 288px;
+    left: 24px;
+    position: absolute;
+  }
+  .state-details-recovered-card {
+    top: 512px;
+    left: 24px;
+    position: absolute;
+  }
+  .state-details-active-card {
+    top: 288px;
+    left: 300px;
+    position: absolute;
+  }
+  .state-details-deceased-card {
+    top: 512px;
+    left: 300px;
+    position: absolute;
+  }
+  .state-top-districts {
+    top: 772px;
+    left: 30px;
+    position: absolute;
+  }
+  .state-unordered-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 500px;
+    top: 820px;
+    left: -100px;
+    position: absolute;
+  }
+  .state-bar-chart {
+    width: 307px;
+    height: 130px;
+    top: 1340px;
+    left: 26px;
+    border-radius: 4px, 4px, 0px, 0px;
+    color: #9a0e31;
+    position: absolute;
+  }
+  .state-line-confirmed-chart {
+    top: 1882px;
+    left: 24px;
+    position: absolute;
+  }
+  .state-line-active-chart {
+    top: 2237px;
+    left: 24px;
+    position: absolute;
+    border-radius: 8px;
+  }
+
+  .state-line-recovered-chart {
+    top: 2597px;
+    left: 24px;
+    border-radius: 8px;
+    position: absolute;
+  }
+  .state-line-deceased-chart {
+    top: 2997px;
+    left: 24px;
+    border-radius: 8px;
+    position: absolute;
+  }
+  .state-line-tested-chart {
+    top: 3352px;
+    left: 24px;
+    border-radius: 8px;
+    position: absolute;
+  }
+  .state-spread-trends {
+    top: 1798px;
+    left: 30px;
+  }
+  .state-details-container {
+    height: 3988px;
+    width: 1500px;
+    background-color: #161625;
+    background-size: cover;
+    overflow: auto;
+  }
+  .state-details-image {
+    display: none;
+  }
+}
+.state-details-image {
+  width: 421px;
+  height: 468px;
+  top: 600px;
+  left: 264px;
+  position: absolute;
+}
+.Reports-container {
+  width: 394px;
+  height: 252px;
+  top: 712px;
+  left: 858px;
+  position: absolute;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f1f5f9;
+}
+.header-container1 {
+  background-color: lightgrey;
+  color: #161625;
+}

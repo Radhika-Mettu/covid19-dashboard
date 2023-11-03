@@ -1,0 +1,231 @@
+.heading {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 24px;
+  top: 28px;
+  position: absolute;
+}
+.spanElement {
+  color: #3b82f6;
+  font-family: Bree Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.home-button {
+  align-self: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 43px;
+  height: 24px;
+  top: 28px;
+  left: 1156px;
+  position: absolute;
+  color: #94a3b8;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.vaccine-button {
+  align-self: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 43px;
+  height: 24px;
+  top: 28px;
+  left: 1256px;
+  position: absolute;
+  color: #94a3b8;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.about-button {
+  align-self: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 43px;
+  height: 24px;
+  top: 28px;
+  left: 1367px;
+  position: absolute;
+  color: #94a3b8;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 564px) {
+  .hamberger-button {
+    background-color: transparent;
+    border: none;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: 400px;
+    margin-top: 25px;
+    position: absolute;
+  }
+  .heading {
+    width: 100px;
+    left: 24px;
+  }
+  .home-button {
+    display: none;
+  }
+  .about-button {
+    display: none;
+  }
+  .vaccine-button {
+    display: none;
+  }
+  .header-container {
+    background-color: #1e1e30;
+    width: 570px;
+    height: 70px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  .home-button1 {
+    width: 42px;
+    height: 26px;
+    top: 80px;
+    left: 32px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    background-color: transparent;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+    color: #94a3b8;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+  }
+  .about-button1 {
+    width: 42px;
+    height: 26px;
+    top: 80px;
+    left: 98px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.35555556416511536px;
+    text-align: left;
+    color: #94a3b8;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .header-cross {
+    color: white;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 2px;
+    position: absolute;
+  }
+  .cross-button {
+    background-color: transparent;
+    border: none;
+    width: 24px;
+    height: 24px;
+    top: 81px;
+    left: 400px;
+    padding: 2px, 2px, 2px, 2px;
+    position: absolute;
+    cursor: pointer;
+  }
+  .light-theme-button {
+    display: none;
+  }
+  .dark-theme-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 564px) {
+  .hamberger-button {
+    display: none;
+  }
+  .heading {
+    width: 130px;
+    left: 150px;
+  }
+  .header-container {
+    background-color: #1e1e30;
+    width: 1440px;
+    height: 80px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+}
+.activeHome1 {
+  color: white;
+}
+.activeVaccine1 {
+  color: white;
+}
+.activeAbout1 {
+  color: white;
+}
+.light-theme-button {
+  color: white;
+  top: 30px;
+  left: 1220px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+}
+.light-moon-color {
+  color: white;
+  height: 25px;
+  width: 25px;
+}
+.dark-theme-button {
+  color: #1e1e30;
+  top: 30px;
+  left: 1220px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+}
+.dark-moon-color {
+  color: #1e1e30;
+  height: 25px;
+  width: 25px;
+}
+.header-container12 {
+  background-color: #dddde2;
+}
+.activeHome2 {
+  color: #1e1e30;
+}

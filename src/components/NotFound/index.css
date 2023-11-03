@@ -1,0 +1,77 @@
+.not-found-container {
+  width: 1440px;
+  height: 1024px;
+  background-color: #161625;
+  position: absolute;
+}
+.not-found-img {
+  width: 448px;
+  height: 300px;
+  top: 230px;
+  left: 496px;
+  position: absolute;
+  padding: 20px;
+  border-radius: 250px;
+  color: #f9f8f81a;
+}
+.not-found-heading {
+  width: 261px;
+  height: 48px;
+  top: 562px;
+  left: 590px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cbd5e1;
+  position: absolute;
+}
+.not-found-para {
+  width: 483px;
+  height: 64px;
+  top: 626px;
+  left: 479px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #94a3b8;
+  position: absolute;
+}
+.not-found-home-button {
+  width: Hug (88px);
+  height: Hug (48px);
+  top: 722px;
+  left: 676px;
+  border-radius: 4px;
+  position: absolute;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 564px) {
+  .not-found-img {
+    left: 59px;
+  }
+  .not-found-heading {
+    left: 122px;
+  }
+  .not-found-para {
+    left: 40px;
+    width: 400px;
+  }
+  .not-found-home-button {
+    top: 750px;
+    left: 197px;
+  }
+}
+.header-container1 {
+  background-color: lightgrey;
+  color: #161625;
+}
